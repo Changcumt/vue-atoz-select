@@ -1,21 +1,37 @@
 # vue-atoz-select
 
-> vue-atoz-select
+> a plugin for Vue.js, 根据首字母分组的Select插件
 
-## Build Setup
+
+## Install
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# install
+npm install vue-atoz-select
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Setup
+
+``` javascript
+import atoZSelect from 'vue-atoz-select'
+Vue.use(atoZSelect)
+```
+
+
+## Use
+
+``` html
+<vue-atoz-select :datalist="datalist" @select="selectItem" />
+```
+``` javascript
+datalist:[
+  {text:'北京'},
+  {text:'上海'},
+  ...
+]
+...
+selectItem(item){
+
+}
+```
