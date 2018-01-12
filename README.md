@@ -2,7 +2,7 @@
 
 > a plugin for Vue.js, 根据首字母分组的Select插件
 
-![Image text](https://raw.githubusercontent.com/Changcumt/vue-atoz-select/master/src/assets/WX20180112-235427%402x.png)
+![Image text](https://raw.githubusercontent.com/Changcumt/vue-atoz-select/master/src/assets/WX20180113-000043%402x.png)
 
 ## Install
 
